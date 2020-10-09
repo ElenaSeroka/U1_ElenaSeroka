@@ -1,44 +1,53 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS - stil och prioriteringar</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <header id="firstPageHeader">
-       <h1>CSS - stil och prioriteringar</h1>
+        <h1>&rarr; CSS - stil och prioriteringar</h1>
     </header>
     <main>
-       
+
         <h2 class="lines">Prioriteringar - <br>Vad är en regel i CSS?:</h2>
         <img src="img/Regel_CSS.png" alt="Regler i C" id="illustration" class="centrering">
         <br>
         <h2 id="page2headline2">Vad menas med kaskad i CSS:</h2>
         <ul>
-            <li><h4>en liten förklaring</h4></li>
+            <li>
+                <h4>en liten förklaring</h4>
+            </li>
             <li class="nosquare">
-                CSS står för cascading style sheets (på svenska stilmall), och är koden som används för att stilsätta ett html dokument. Exempel på stilsättning är bakgrundsfärg, textstorlek och centrering av bilder. 
-                
-                “Kaskaden” är en algoritm. Denna definierar hur olika egenskapers värden som hämtas från olika källor (som färgen på texten) ska kombineras, och i vilken prioritering detta ska ske. 
-               <br>
-               <br>
-                Exempelvis kan man stilsätta textfärgen för hela dokumentet vitt genom att skriva 
-                body { color: white}; , men även vilja stilsätta vissa rubriker med textfärgen grå. 
+                CSS står för cascading style sheets (på svenska stilmall), och är koden som används för att stilsätta
+                ett html dokument. Exempel på stilsättning är bakgrundsfärg, textstorlek och centrering av bilder.
+
+                “Kaskaden” är en algoritm. Denna definierar hur olika egenskapers värden som hämtas från olika källor
+                (som färgen på texten) ska kombineras, och i vilken prioritering detta ska ske.
+                <br>
+                <br>
+                Exempelvis kan man stilsätta textfärgen för hela dokumentet vitt genom att skriva
+                body { color: white}; , men även vilja stilsätta vissa rubriker med textfärgen grå.
                 Detta specifieras då mer precist genom att skriva h1 {color: grey}.
                 <br>
                 CSS Kaskaden bestämmer alltså hur webbrowsern ska lösa konflikter inom CSS deklarationerna.
-                
-               </li>
+
+            </li>
         </ul>
     </main>
     <footer>
-    <br>
-<a href="index.html" class="margintextfooter">Sida 1</a>
-<a href="page2.html" class="margintextfooter">Sida 2</a>
-<a href="page3.html" id="thispage" class="margintextfooter">Sida 3</a>
+        <br>
+        &hearts;
+        <a href="index.html" class="margintextfooter">Sida 1</a>
+        <a href="page2.html" class="margintextfooter">Sida 2</a>
+        <a href="page3.html" id="thispage" class="margintextfooter">Sida 3</a>
+        &hearts;
     </footer>
 </body>
+
 </html>
